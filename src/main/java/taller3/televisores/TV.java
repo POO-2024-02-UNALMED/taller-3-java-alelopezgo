@@ -62,19 +62,19 @@ public class TV {
 		this.estado = false;
 	}
 	public void canalUp() {
-		if (this.estado = true && canal >= 1 && canal <= 120);
+		if (this.estado == true && canal >= 1 && canal <= 120);
 		this.canal += 1;
 	}
 	public void canalDown() {
-		if (this.estado = true && canal >= 1 && canal <= 120);
+		if (this.estado == true && canal >= 1 && canal <= 120);
 		this.canal -= 1;
 	}
 	public void volumenUp() {
-		if (this.estado = true && volumen >= 0 && volumen <= 7)
+		if (this.estado == true && volumen >= 0 && volumen <= 7)
 		this.volumen += 1;
 	}
 	public void volumenDown() {
-		if (this.estado = true && volumen >= 0 && volumen <= 7)
+		if (this.estado == true && volumen >= 0 && volumen <= 7)
 		this.volumen -= 1;
 	}
 }
