@@ -28,7 +28,7 @@ public class TV {
 	public int getVolumen() {
 		return this.volumen;
 	}
-	public static int getnumTV() {
+	public static int getNumTV() {
 		return TV.numTV;
 	}
 	public Control getControl() {
