@@ -9,7 +9,7 @@ public class Marca {
 		return this.nombre;
 	}
 	public Marca(String nombre) {
-		this.setnombre(nombre);		
+		this.setNombre(nombre);		
 	}
 
 }
