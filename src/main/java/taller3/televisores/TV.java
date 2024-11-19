@@ -41,14 +41,15 @@ public class TV {
 		this.marca = marca;
 	}
 	public void setCanal(int canal) {
-		if (this.estado == true && canal >= 1 && canal <= 120);
+		if (this.estado && canal >= 1 && canal <= 120)
 			this.canal = canal;
 	}
 	public void setPrecio(int precio) {
 		this.precio = precio;
 	}
 	public void setVolumen(int volumen) {
-		this.volumen = volumen;
+		if (this.estado && volumen >= 0 && volumen <= 7)
+			this.volumen = volumen;
 	}
 	public void setControl(Control control) {
 		this.control = control;
